@@ -1,0 +1,117 @@
+@import url("config.css");
+@import url("navbar.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--primary-color);
+}
+
+.container {
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.header h2 {
+  color: var(--primary-color);
+}
+
+.header p {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.edit-btn {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.profile-box {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cover {
+  height: 100px;
+  background-color: var(--primary-color);
+}
+
+.profile-info {
+  position: relative;
+  padding: 15px;
+}
+
+.profile-pic {
+  position: absolute;
+  top: -30px;
+  font-size: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-pic img {
+  width: 40px;
+  border-radius: 50%;
+
+}
+
+.profile-info h3 {
+  margin-top: 35px;
+}
+
+.email {
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.status {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #eee;
+  color: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.contact {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact h4 {
+  margin-bottom: 10px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 12px;
+  color: gray;
+}
