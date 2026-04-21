@@ -1,0 +1,163 @@
+@import url('config.css');
+@import url('navbar.css');
+
+.container {
+  width: 90%;
+  margin: 25px auto;
+  font-family: var(--primary-font);
+}
+
+.header {
+  background: var(--primary-color);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.header h1 {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 14px;
+  color: #dddddd;
+}
+
+.form-box {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.form-box h2 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.row {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 15px;
+}
+
+.group {
+  width: 33.3%;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  width: 50%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.submit {
+  background: var(--primary-color);
+  color: white;
+}
+
+.reset {
+  background: var(--secondary-color);
+  color: white;
+}
+
+.submit:hover {
+  background: #2f1f3f;
+}
+
+.reset:hover {
+  background: #555555;
+}
+
+.table-box {
+  background: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.table-box h2 {
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.small-text {
+  color: var(--secondary-color);
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: var(--primary-color);
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+
+td:hover{
+  background-color: rgba(211, 210, 210, 0.705);
+
+}
+
+.present {
+  color: green;
+  font-weight: bold;
+}
+
+.absent {
+  color: red;
+  font-weight: bold;
+}
+
+.late {
+  color: orange;
+  font-weight: bold;
+}
