@@ -27,7 +27,8 @@ body {
   font-weight: 600;
 }
 .header a img {
-  width: 102px;
+  width: 150px;
+  object-fit: contain;
 }
 
  

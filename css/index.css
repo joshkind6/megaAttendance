@@ -129,6 +129,12 @@ body {
   margin-bottom: 10px;
 }
 
+.left-side p {
+  font-size: 14px;
+  color: var(--secondary-color);
+  line-height: 20px;
+}
+
 .right-side {
   width: 50%;
   display: flex;

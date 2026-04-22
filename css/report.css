@@ -1,0 +1,160 @@
+@import url('config.css');
+@import url('navbar.css');
+
+.container {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.top-header {
+    background: var(--primary-color);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.top-header h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.top-header p {
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.report-box {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+}
+
+.report-box h2 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.report-form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.form-group {
+    width: 33%;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+select,
+input {
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-group select {
+    width: 100%;
+}
+
+.form-group input {
+    width: 95%;
+}
+
+.btn-row {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 33.3%;
+}
+
+.generate {
+    background: var(--primary-color);
+    color: white;
+}
+
+.download {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.print {
+    background: #222;
+    color: white;
+}
+
+.table-box {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-color);
+}
+
+.table-header h2 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.table-header p {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: var(--primary-color);
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.good {
+    color: green;
+    font-weight: bold;
+}
+
+.average {
+    color: orange;
+    font-weight: bold;
+}
+
+.bad {
+    color: red;
+    font-weight: bold;
+}

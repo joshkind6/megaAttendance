@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Take Attendance</title>
+
+  <link rel="stylesheet" href="css/attendance.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+
+  <div class="logo">
+     <img src="/images/logo-dark.png" alt="" />
+  </div>
+
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="students_list.html">Students-List</a>
+    <a href="profile.html">Profile</a>
+    <a href="edit_profile.html">Edit Profile</a>
+    <a href="about.html">About</a>
+  </div>
+
+<div class="auth-buttons">
+  <a href="login.html" class="login">Login</a>
+  <a href="register.html" class="register">Register</a>
+</div>
+</nav>
+
+  <div class="container">
+
+    <header class="header">
+      <h1><i class="fa-solid fa-calendar-check"></i> Take Attendance</h1>
+      <p>Mark students as Present, Absent, or Late</p>
+    </header>
+
+    <section class="form-box">
+      <h2>Attendance Form</h2>
+
+      <form>
+        <div class="row">
+          <div class="group">
+            <label>Department</label>
+            <select required>
+              <option value="">Department</option>
+              <option>Software Engineering</option>
+              <option>Computer Science</option>
+              <option>ICT</option>
+              <option>Cyber Security</option>
+            </select>
+          </div>
+
+          <div class="group">
+            <label>Date</label>
+            <input type="date" required>
+          </div>
+
+          <div class="group">
+            <label>Level</label>
+            <select required>
+              <option value="">Select Level</option>
+              <option>100 Level</option>
+              <option>200 Level</option>
+              <option>300 Level</option>
+              <option>400 Level</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="group">
+            <label>Student Name</label>
+            <input type="text" placeholder="Enter Student Name" required>
+          </div>
+
+          <div class="group">
+            <label>Matric Number</label>
+            <input type="text" placeholder="Enter Matric Number" required>
+          </div>
+
+          <div class="group">
+            <label>Status</label>
+            <select required>
+              <option value="">Select Status</option>
+              <option>Present</option>
+              <option>Absent</option>
+              <option>Late</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="btn-row">
+          <button type="submit" class="btn submit">
+            <i class="fa-solid fa-check"></i> Mark Attendance
+          </button>
+
+          <button type="reset" class="btn reset">
+            <i class="fa-solid fa-rotate-left"></i> Clear Form
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section class="table-box">
+      <h2>Marked Students (Today)</h2>
+      <p class="small-text">Below is a preview of students marked today.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>S/N</th>
+            <th>Student Name</th>
+            <th>Matric No</th>
+            <th>Department</th>
+            <th>Date</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Anthony Ruth</td>
+            <td>cmp2307621</td>
+            <td>Software Engineering</td>
+            <td>2026-04-17</td>
+            <td class="present">Present</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Otiti Chigoziem</td>
+            <td>cmp2307604</td>
+            <td>Software Engineering</td>
+            <td>2026-04-17</td>
+            <td class="absent">Absent</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Macaulay Akpoghene</td>
+            <td>cmp2307619</td>
+            <td>Software Engineering</td>
+            <td>2026-04-17</td>
+            <td class="late">Late</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+
+</body>
+</html>
