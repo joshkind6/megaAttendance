@@ -161,6 +161,7 @@ p {
     opacity: 0.6;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
 .team {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        "Noto Sans",
+        "Liberation Sans",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+.primary-bg {
+    background-color: green;
+}
+
+.container {
+    width: 100vw;
+}
+
+.container .info-bar {
+    width: 100%;
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.container .top-navigation-bar {
+    background-color: #FBFCFE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .top-navigation-bar img {
+    width: 15%;
+}
+
+.container .top-navigation-bar ul {
+    list-style: none;
+}
+
+.container .top-navigation-bar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px 10px;
+}
+
+.container .top-navigation-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .top-navigation-bar ul li a:hover {
+    color: green;
+}
+
+.container .top-navigation-bar ul li:first-child a {
+    color: white !important;
+}
+
+.container .bottom-navigation-bar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px 100px;
+    color: white;
+}
+
+.container .bottom-navigation-bar ul {
+    list-style: none;
+}
+
+.container .bottom-navigation-bar ul li {
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.container .bottom-navigation-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .bottom-navigation-bar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.405);
+    border-radius: 30px;
+}
+
+@media screen and (max-width:994px) {
+    .container .top-navigation-bar ul li:nth-child(4) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 765px) {
+
+    /* Public search */
+    .container .top-navigation-bar ul li:nth-child(5) a span:nth-child(2) {
+        display: none;
+    }
+
+    /* Help and support */
+    .container .top-navigation-bar ul li:nth-child(2) a span:nth-child(1) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 765px) {
+
+    /* Search */
+    .container .top-navigation-bar ul li:nth-child(5) a span:last-child {
+        display: none;
+    }
+
+    /* Help */
+    .container .top-navigation-bar ul li:nth-child(2) a span:last-child {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 574px){
+.container .top-navigation-bar ul li:nth-child(1){
+display: none;
+}
+
+}
+

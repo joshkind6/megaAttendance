@@ -1,0 +1,54 @@
+@import url("config.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    animation: loader 1s 3s forwards
+}
+
+@keyframes loader {
+    from {
+        visibility: visible;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden
+    }
+}
+
+.loader p {
+    color: white;
+    font-size: 30px;
+}
+
+.spin {
+    color: white;
+    animation: spin-fa 4s 1 linear
+}
+
+@keyframes spin-fa {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
