@@ -14,6 +14,8 @@ body {
 .hero {
   background: white;
   width: 85%;
+  /* margin: 30px auto;
+  padding: 30px; */
   border-radius: 10px;
   border: 3px solid var(--secondary-color);
   display: flex;
@@ -24,7 +26,7 @@ body {
 .hero h1 {
   color: var(--primary-color);
   font-size: 30px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .hero p {
@@ -35,14 +37,14 @@ body {
 
 
 .buttons {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  padding: 12px 18px;
-  margin: 5px;
+  /* padding: 12px 18px;
+  margin: 5px; */
   border-radius: 6px;
   font-size: 14px;
 }
@@ -67,7 +69,6 @@ body {
 
 .features {
   width: 85%;
-  margin: 20px auto;
   display: flex;
   gap: 15px;
 }
@@ -75,11 +76,12 @@ body {
 .feature-box {
   background: white;
   width: 33.3%;
-  padding: 20px;
+   /* padding: 20px;  */
   border-radius: 10px;
   border: 3px solid var(--secondary-color);
   text-align: center;
 }
+
 
 .feature-box:hover {
   transform: translateY(-5px);
@@ -90,12 +92,12 @@ body {
 .feature-box i {
   font-size: 30px;
   color: var(--primary-color);
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .feature-box h3 {
   color: var(--primary-color);
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   font-size: 18px;
 }
 
@@ -107,11 +109,11 @@ body {
 
 .why {
   width: 85%;
-  margin: 20px auto;
+   /* margin: 20px auto;  */
   display: flex;
   gap: 15px;
   background-color: white;
-  padding: 20px;
+  /* padding: 20px; */
   justify-content: space-between;
   border-radius: 10px;
   align-items: center;
@@ -124,7 +126,7 @@ body {
 .left-side h2 {
   color: var(--primary-color);
   font-size: 30px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .left-side p {
@@ -142,12 +144,12 @@ body {
 .right-side i {
   font-size: 200px;
   color: var(--primary-color);
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .footer-d {
   display: flex;
-  padding: 20px;
+  /* padding: 20px; */
   background-color: var(--primary-color);
   flex-direction: row;
   justify-content: left;
@@ -163,11 +165,11 @@ body {
   display: flex;
   justify-content: space-between;
   height: 30px;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 .footer-d1 a {
-  margin-right: 20px;
+  margin-right: 20px;  
   color: white
 }
 
