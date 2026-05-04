@@ -1,127 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="/css/profile.css" />
+    <link rel="stylesheet" href="/fontawesome/css/all.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Page</title>
-  <link rel="stylesheet" href="./bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="./fontawesome/css/all.css">
-  <link rel="stylesheet" href="/css/profile.css">
-  <link rel="stylesheet" href="/fontawesome/css/all.css">
-</head>
-
-<body>
-
-  <nav class="navbar">
-
-    <div class="logo">
-      <img src="/images/logo-dark.png" alt="" />
-    </div>
-
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="students_list.html">Students-List</a>
-      <a href="profile.html">Profile</a>
-      <a href="edit_profile.html">Edit Profile</a>
-      <a href="about.html">About</a>
-    </div>
-
-    <div class="auth-buttons">
-      <a href="login.html" class="login"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
-      <a href="register.html" class="register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
-    </div>
-  </nav>
-  <div class="container pt-2">
-    <div class="header mb-2">
-      <div>
-        <h2>My Profile</h2>
-        <p>Your personal information</p>
-      </div>
-      <a href="edit-page.html" class="edit-btn py-2 px-3"><i class="fas fa-user-edit m-2"></i> Edit Profile</a>
-    </div>
-
-    <div class="profile-box mb-2">
-
-      <div class="cover"></div>
-
-      <div class="profile-info p-3">
-        <div class="profile-pic"><img src="images/profile-pic.jpeg" alt=""></div>
-
-        <div class="profile-div">
-          <h3>Matthew Micheal</h3>
-          <p class="matric_number mt-4">CMP2306543</p>
-        </div>
-
-        <span class="status px-2 py-2">Student</span>
-      </div>
-    </div>
-
-    <div class="contact p-3">
-
-      <h4 class="mb-2">Contact Information</h4>
-
-      <div class="info-box mb-4 p-3">
-        <div>
-          <p class="label">Email</p>
-          <p>matthew05@gmail.com</p>
-        </div>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/images/logo-dark.png" alt="" />
       </div>
 
-      <div class="info-box mb-4 p-3">
-        <div>
-          <p class="label">Matric Number</p>
-          <p>CMP2306543</p>
-
-        </div>
-      </div>
-
-
-      <div class="info-box mb-4 p-3">
-        <div>
-          <p class="label">Faculty</p>
-          <p>Computing</p>
-        </div>
-      </div>
-
-
-      <div class="info-box mb-4 p-3">
-        <div>
-          <p class="label">Department</p>
-          <p>Compter Science</p>
-        </div>
-      </div>
-
-
-      <div class="info-box mb-4 p-3">
-        <div>
-          <p class="label">Place Of IT</p>
-          <p>Alihame</p>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-  <div class="footer-d">
-    <div><img src="./images/logo-dark.png" class="img-f" /></div>
-    <div class="footer-last">
-      <div class="footer-d1">
+      <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="students_list.html">Students-List</a>
         <a href="profile.html">Profile</a>
         <a href="edit_profile.html">Edit Profile</a>
         <a href="about.html">About</a>
       </div>
-      <div class="footer-d2">
-        <p>© <span>MegaAttendance</span>Copyright 2026. All Rights Reserved.</p>
+
+      <div class="auth-buttons">
+        <a href="login.html" class="login"
+          ><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a
+        >
+        <a href="register.html" class="register"
+          ><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a
+        >
+      </div>
+    </nav>
+    <div class="container pt-2">
+      <div class="header mb-2">
+        <div>
+          <h2>My Profile</h2>
+          <p>Your personal information</p>
+        </div>
+        <a href="edit-page.html" class="edit-btn py-2 px-3"
+          ><i class="fas fa-user-edit m-2"></i> Edit Profile</a
+        >
+      </div>
+
+      <div class="profile-box mb-2">
+        <div class="cover"></div>
+
+        <div class="profile-info p-3">
+          <div class="profile-pic">
+            <img src="images/profile-pic.jpeg" alt="" />
+          </div>
+
+          <div class="profile-div">
+            <h3>Matthew Micheal</h3>
+            <p class="matric_number mt-4">CMP2306543</p>
+          </div>
+
+          <span class="status px-2 py-2">Student</span>
+        </div>
+      </div>
+
+      <div class="contact p-3">
+        <h4 class="mb-2">Contact Information</h4>
+
+        <div class="info-box mb-4 p-3">
+          <div>
+            <p class="label">Email</p>
+            <p>matthew05@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="info-box mb-4 p-3">
+          <div>
+            <p class="label">Matric Number</p>
+            <p>CMP2306543</p>
+          </div>
+        </div>
+
+        <div class="info-box mb-4 p-3">
+          <div>
+            <p class="label">Faculty</p>
+            <p>Computing</p>
+          </div>
+        </div>
+
+        <div class="info-box mb-4 p-3">
+          <div>
+            <p class="label">Department</p>
+            <p>Compter Science</p>
+          </div>
+        </div>
+
+        <div class="info-box mb-4 p-3">
+          <div>
+            <p class="label">Place Of IT</p>
+            <p>Alihame</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="footer-space">
-      <p>Contact us</p>
-      <p>Phone: 08124353021</p>
-    </div>
-  </div>
-</body>
-
+    <footer class="bg-purple text-white py-4">
+      <div class="container-fluid">
+        <div class="row text-center text-md-start align-items-center">
+          <div class="col-12 col-md-4 mb-3 mb-md-0 ps-5">
+            <img
+              src="images/logo-dark.png"
+              class="img-fluid footer-logo"
+              alt="Logo"
+            />
+          </div>
+          <div class="col-12 col-md-4 mb-1 mb-md-0 text-center">
+            <p class="mb-0">
+              &copy; MegaAttendance Copyright 2026. <br />
+              All Rights Reserved
+            </p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 text-center text-md-end">
+            <div class="d-inline-block text-center">
+              <p class="mb-0">Contact us</p>
+              <p class="mb-0">+234 812 435 3021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
