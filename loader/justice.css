@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.loader-box{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-box img{
+    width: 200px;
+    object-fit: contain;
+    animation: pulse 2s infinite ease-in-out, fadeInOut 2s ease-in-out infinite;; 
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }   
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); } 
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 8; }
+}

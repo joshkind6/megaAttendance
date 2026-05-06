@@ -1,6 +1,6 @@
 @import url("config.css");
 @import url("navbar.css");
-@import url("uwaje.css");
+@import url("footer.css");
 
 * {
   margin: 0;
@@ -46,6 +46,7 @@
   }
 }
 
+<<<<<<< HEAD
 /* i made the image responsive for tablet and larger devices */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .p-img {
@@ -113,4 +114,48 @@
   color: white;
   margin-bottom: 20px;
   ;
+=======
+.profile-div h3 {
+  font-size: 30px;
+  color: white
+}
+
+.profile-div p {
+  font-size: 20px;
+  color: var(--primary-color)
+}
+
+
+.matric_number {
+  font-size: 13px;
+  color: var(--secondary-color);
+}
+
+.status {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: #eee;
+  color: var(--primary-color);
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.contact {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 10px;
+}
+
+.label {
+  font-size: 12px;
+  color: gray;
+>>>>>>> 161b297e53327b41d9b64f3d61da8adfd4788fb3
 }

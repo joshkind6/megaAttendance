@@ -1,0 +1,16 @@
+@import url('config.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-purple {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.footer-logo {
+    height: 50px;
+}

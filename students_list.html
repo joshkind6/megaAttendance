@@ -6,14 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SIWES Attendance - Student List</title>
   <link rel="stylesheet" href="/bootstrap/bootstrap.css">
-  <link rel="stylesheet" href="/css/navbar.css" />
   <link rel="stylesheet" href="/css/students_list.css" />
   <link rel="stylesheet" href="/fontawesome/css/all.css">
 </head>
 
 <body>
-  <div class="container m-0 p-0">
-    <nav class="navbar">
+  <div class="container-fluid bg-white m-0 p-0">
+    <nav class="navbar py-3 px-5">
 
       <div class="logo">
         <img src="/images/logo-dark.png" alt="" />
@@ -28,35 +27,129 @@
       </div>
 
       <div class="auth-buttons">
-        <a href="login.html" class="login"><i class="fa fa-user-circle" aria-hidden="true"></i> Login</a>
-        <a href="register.html" class="register"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
+        <a href="login.html" class="login px-3 py-2 me-3">
+          <i class="fa fa-user-circle"></i> Login
+        </a>
+        <a href="register.html" class="register px-3 py-2">
+          <i class="fa fa-user-plus"></i> Register
+        </a>
       </div>
 
     </nav>
 
     <section class="summary-cards m-4">
-      <div class="card p-4">
-        <h3>Total Students</h3>
-        <p class="number">20</p>
-      </div>
-      <div class="card p-4">
-        <h3>Present</h3>
-        <p class="number">12</p>
-      </div>
-      <div class="card p-4">
-        <h3>Absent</h3>
-        <p class="number">8</p>
+      <div class="row g-4 m-sm-4">
+
+        <div class="col-sm-12 col-md-4">
+          <div class="card p-4  text-center text-white">
+            <h3>Total Students</h3>
+            <p class="number">20</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card p-4  text-center text-white">
+            <h3>Present</h3>
+            <p class="number">12</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <div class="card p-4  text-center text-white">
+            <h3>Absent</h3>
+            <p class="number">8</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="table-controls m-4">
-      <select class="filter-select py-2 px-3 me-3">
-        <option value="all">All Students</option>
-        <option value="present">Present</option>
-        <option value="absent">Absent</option>
-      </select>
+
+    <section class="table-controls m-5">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          All Students
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Present</a></li>
+          <li><a class="dropdown-item" href="#">Absent</a></li>
+        </ul>
+      </div>
     </section>
 
+
+    <section class="student table m-5">
+      <div class="table-responsive-sm">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Matric no</th>
+              <th scope="col">Name</th>
+              <th scope="col">Dept</th>
+              <th scope="col">Date</th>
+              <th scope="col">Status</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="">
+
+
+              <td scope="row">cmp2307625</td>
+              <td>Wisdom Udhedhe</td>
+              <td>Software Engineering</td>
+              <td>24/3/26</td>
+              <td> <span class="badge py-2 px-3 badge-present ">Present</span> </td>
+
+            </tr>
+            <tr class="">
+              <td scope="row">cmp2310350</td>
+              <td>Godwin Dore</td>
+              <td>Computer Science</td>
+              <td>24/3/26</td>
+              <td> <span class="badge py-2 px-3 badge-present ">Present</span> </td>
+            </tr>
+            <tr class="">
+              <td scope="row">cmp2101420</td>
+              <td>Chukwuekwu Daniel</td>
+              <td>Cyber security</td>
+              <td>24/3/26</td>
+              <td> <span class="badge py-2 px-3 badge-present ">Present</span> </td>
+            </tr>
+            
+            <tr>
+              <td>cmp2307621</td>
+              <td>Anthony Ruth</td>
+              <td>Software Engineering</td>
+              <td>March 24, 2026</td>
+              <td><span class="badge  py-2 px-3 badge-absent">Absent</span></td>
+            </tr>
+            <tr>
+              <td>cmp2307619</td>
+              <td>Macaulay Akpughene</td>
+              <td>Software Engineering</td>
+              <td>March 24, 2026</td>
+              <td><span class="badge py-2 px-3 badge-present">Present</span></td>
+            </tr>
+            <tr>
+              <td>cmp2307629</td>
+              <td>Mgbeken Justice</td>
+              <td>Software Engineering</td>
+              <td>March 24, 2026</td>
+              <td><span class="badge  py-2 px-3 badge-present">Present</span></td>
+            </tr>
+            <tr>
+              <td>cmp2307462</td>
+              <td>Uwaje Peter Onyekachukwu</td>
+              <td>Computer Science</td>
+              <td>March 24, 2026</td>
+              <td><span class="badge  py-2 px-3 badge-present">Present</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+
+    <!-- 
     <section class="table-container">
       <table class="student-table">
         <thead>
@@ -114,7 +207,7 @@
           </tr>
         </tbody>
       </table>
-    </section>
+    </section> -->
 
     <div class="footer-d">
       <div><img src="./images/logo-dark.png" class="img-f" /></div>
@@ -144,6 +237,8 @@
       </div>
     </div>
   </div>
+
+  <script src="/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

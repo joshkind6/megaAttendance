@@ -1,7 +1,6 @@
 @import url('config.css');
 
 * {
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -41,7 +40,6 @@ body {
   align-items: center;
   gap: 2vh;
   background: linear-gradient(to bottom, var(--primary-color));
-  padding: 5vh 3vw;
   border-radius: 0.5vw;
   box-shadow: 0 1.5vh 5vh rgba(0, 0, 0, 0.2);
 }
@@ -54,12 +52,10 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5vh;
-  margin-top: 10vh; 
 }
 
 .form-container input {
   width: 90%;
-  padding: 12px 18px;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -68,7 +64,6 @@ body {
 
 .submit-btn {
   width: 60%;
-  padding: 12px 24px;
   background-color: var(--secondary-color);
   color: white;
   border: none;
@@ -76,7 +71,6 @@ body {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  margin-top: 16px;
   transition: background-color 0.3s ease;
 }
 
