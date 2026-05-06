@@ -7,13 +7,8 @@
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.main {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  background-color: white;
-  align-items: center;
-  justify-content: center;
+.bg-purple {
+  background-color: var(--primary-color);
 }
 
 .inner-div {

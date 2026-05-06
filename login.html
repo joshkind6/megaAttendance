@@ -19,27 +19,28 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://localhost:5500/login.html">
 <meta property="og:image" content="/images/preview.png">
+<link rel="stylesheet" href="/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/config.css">
   <link rel="stylesheet" href="/fontawesome/css/all.css">
 </head>
-<body>
+<body class="p-0">
 
   
  <!-- login section -->
 
-    <div class="form-container">
+    <div class="form-container p-4">
 
         <div class="header">
           <p>Welcome back, <br>Sign into your account</p>
           <a href="/"><img src="/images/logo-dark.png" alt=""></a>
         </div>
     
-      <form action="./profile.html">
-        <input type="text" placeholder="Enter Full Name" required>
-        <input type="password" placeholder="Password" required>
+      <form action="./profile.html" class="mt-5">
+        <input type="text" placeholder="Enter Full Name" required  class="p-2">
+        <input type="password" placeholder="Password" required class="p-2">
 
-          <button type="submit" class="submit-btn">Login</button>
+          <button type="submit" class="submit-btn p-2 mt-3">Login</button>
       </form>
 
       <p> <i>Don't have an account? <a href="register.html">Sign Up</a></i> </p>

@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Take Attendance</title>
-  <link rel="stylesheet" href="bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="/bootstrap/bootstrap.css">
+
   <link rel="stylesheet" href="css/attendance.css">
   <link rel="stylesheet" href="fontawesome/css/all.css">
 </head>
@@ -32,23 +33,23 @@
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container m-auto">
 
-    <header class="header">
-      <h1><i class="fa-solid fa-calendar-check"></i> Take Attendance</h1>
+    <header class="header p-2 mt-3">
+      <h1 class="mb-1"><i class="fa-solid fa-calendar-check"></i> Take Attendance</h1>
       <p>Mark students as Present, Absent, or Late</p>
     </header>
 
-    <section class="form-box">
+    <section class="form-box mt-4 p-4">
       <h2>Attendance Form</h2>
 
       <form>
-        <div class="row">
+        <div class="row mt-3">
+        
 
-
-          <div class="group">
+          <div class="group mb-2">
             <label>Level</label>
-            <select required>
+            <select required class="p-2">
               <option value="">Select Level</option>
               <option>100 Level</option>
               <option>200 Level</option>
@@ -61,17 +62,17 @@
         <div class="row">
           <div class="group">
             <label>Student Name</label>
-            <input type="text" placeholder="Enter Student Name" required>
+            <input type="text" placeholder="Enter Student Name" required class="p-2">
           </div>
 
           <div class="group">
             <label>Matric Number</label>
-            <input type="text" placeholder="Enter Matric Number" required>
+            <input type="text" placeholder="Enter Matric Number" required class="p-2">
           </div>
 
           <div class="group">
             <label>Status</label>
-            <select required>
+            <select required class="p-2">
               <option value="">Select Status</option>
               <option>Present</option>
               <option>Absent</option>
@@ -79,8 +80,8 @@
           </div>
         </div>
 
-        <div class="btn-row">
-          <button type="submit" class="btn submit">
+        <div class="btn-row mt-3">
+          <button type="submit" class="btn submit p-2">
             <i class="fa-solid fa-check"></i> Mark Attendance
           </button>
 
@@ -91,14 +92,14 @@
       </form>
     </section>
 
-    <section class="table-box">
-      <h2>Marked Students (Today)</h2>
+    <section class="table-box mt-4 p-4">
+      <h2 class="mb-1">Marked Students (Today)</h2>
       <p class="small-text">Below is a preview of students marked today.</p>
 
       <table>
         <thead>
           <tr>
-            <th>S/N</th>
+            <th class="p-2">S/N</th>
             <th>Student Name</th>
             <th>Matric No</th>
             <th>Department</th>
@@ -109,7 +110,7 @@
 
         <tbody>
           <tr>
-            <td>1</td>
+            <td class="p-3">1</td>
             <td>Anthony Ruth</td>
             <td>cmp2307621</td>
             <td>Software Engineering</td>
@@ -118,7 +119,7 @@
           </tr>
 
           <tr>
-            <td>2</td>
+            <td class="p-3">2</td>
             <td>Otiti Chigoziem</td>
             <td>cmp2307604</td>
             <td>Software Engineering</td>
@@ -127,7 +128,7 @@
           </tr>
 
           <tr>
-            <td>3</td>
+            <td class="p-3">3</td>
             <td>Macaulay Akpoghene</td>
             <td>cmp2307619</td>
             <td>Software Engineering</td>
